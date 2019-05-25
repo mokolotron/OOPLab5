@@ -7,8 +7,13 @@ class Carrier :
 	public AmunDepot,
 	private Airport
 {
+	string crew_name;
+	string number_escadra;
+	
 public:
 	Carrier();
+
+
 	~Carrier();
 };
 

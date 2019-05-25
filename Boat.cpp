@@ -10,10 +10,26 @@ Boat::Boat()
 	cargo_capacity = 0;
 }
 
+Boat::Boat(float _speed, float _weight, int _capacity, int _cargo_capacity)
+{
+	set_speed(_speed);
+	set_weight(_weight);
+	set_capacity(_capacity);
+	set_weight(_cargo_capacity);
+}
+
+Boat::Boat(const Boat& obj)
+{
+	speed = obj.speed;
+	weight = obj.weight;
+	capacity = obj.capacity;
+	cargo_capacity = obj.cargo_capacity;
+}
+
 float Boat::get_speed(){return speed;}
 float Boat::get_weight(){return weight;}
-float Boat::get_capacity(){return capacity;}
-float Boat::get_cargo_capacity(){return cargo_capacity;}
+int Boat::get_capacity(){return capacity;}
+int Boat::get_cargo_capacity(){return cargo_capacity;}
 
 void Boat::set_speed(float _speed) {
 	if (_speed>0) speed = _speed;

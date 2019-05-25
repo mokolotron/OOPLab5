@@ -8,11 +8,13 @@ class Boat
 
 public:
 	Boat();
+	Boat(float _speed, float _weight, int _capacitu, int _cargo_capacity);
+	Boat(const Boat &obj);
 
 	float get_speed();
 	float get_weight();
-	float get_capacity();
-	float get_cargo_capacity();
+	int get_capacity();
+	int get_cargo_capacity();
 
 	void set_speed(float _speed);
 	void set_weight(float _weight);
