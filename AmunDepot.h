@@ -1,14 +1,16 @@
 #pragma once
+#include <iostream>
+using namespace std;
 class AmunDepot
 {
-	int cargo_capacity;
+	int capacity;
 	int hie;
 	int wid;
 	int len;
 
 public:
 	AmunDepot();
-	AmunDepot(int _cargo_capacity, int _hie, int _wid, int _len);
+	AmunDepot(int capacity, int _hie, int _wid, int _len);
 	AmunDepot(const AmunDepot &obj);
 	int get_cargo_capacity();
 	int get_hie();
@@ -19,6 +21,8 @@ public:
 	void set_hie(int _hie);
 	void set_wid(int _wid);
 	void set_len(int _len);
+
+	virtual void show();
 
 	~AmunDepot();
 };

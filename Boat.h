@@ -1,4 +1,6 @@
 #pragma once
+#include <iostream>
+using namespace std;
 class Boat
 {
 	float speed;
@@ -21,6 +23,7 @@ public:
 	void set_capacity(float _capcity);
 	void set_cargo_capacity(float _cargo_capacity);
 	
+	virtual void show();
 	~Boat();
 };
 

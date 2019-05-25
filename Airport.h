@@ -1,6 +1,7 @@
 #pragma once
 using namespace std;
 #include <string>
+#include <iostream>
 
 
 
@@ -21,6 +22,8 @@ public:
 	
 	void set_lenght(int _lenght);
 	void set_width(int _width);
+
+	virtual void show();
 
 	void open(bool o);
 	~Airport();

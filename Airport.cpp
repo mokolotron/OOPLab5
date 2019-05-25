@@ -34,7 +34,12 @@ void Airport::set_width(int _width)
 {
 	if(_width> 0)
 	wid = _width;
-};
+}
+void Airport::show()
+{
+	cout << status<<' ' << wid << ' ' << len;
+}
+;
 
 
 void Airport::open(bool o)
