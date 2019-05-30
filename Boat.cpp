@@ -50,10 +50,19 @@ void Boat::set_cargo_capacity(float _cargo_capacity)
 }
 
 
+
 void Boat::show()
 {
-	cout << "speed = " << speed << "weight = " << weight << " capacity = "
-		<< capacity << "cargo = " << cargo_capacity;
+	cout << "speed = " << speed << " weight = " << weight << " capacity = "
+		<< capacity << " cargo = " << cargo_capacity;
+}
+
+void Boat::fill()
+{
+	cout << "Boat speed : "; cin >> speed;
+	cout << "Boat weight : "; cin >> weight;
+	cout << "Boat capacity : "; cin >> capacity;
+	cout << "Boat cargo capacity : "; cin >> cargo_capacity;
 }
 
 Boat::~Boat()

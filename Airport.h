@@ -24,6 +24,7 @@ public:
 	void set_width(int _width);
 
 	virtual void show();
+	void fill();
 
 	void open(bool o);
 	~Airport();

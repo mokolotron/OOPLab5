@@ -32,6 +32,15 @@ void Carrier::show()
 	AmunDepot::show();
 }
 
+void Carrier::fill()
+{
+	Airport::fill();
+	AmunDepot::fill();
+	Boat::fill();
+
+	
+}
+
 
 Carrier::~Carrier()
 {

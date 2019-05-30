@@ -23,6 +23,7 @@ public:
 	void set_len(int _len);
 
 	virtual void show();
+	void fill();
 
 	~AmunDepot();
 };

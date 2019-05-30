@@ -22,6 +22,7 @@ public:
 		);
 
 	virtual void show();
+	void fill();
 
 
 	~Carrier();

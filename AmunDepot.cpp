@@ -4,10 +4,10 @@
 
 AmunDepot::AmunDepot()
 {
-	int cargo_capacity = 0;
-	int hie = 0;
-	int wid = 0;
-	int len = 0;
+	 capacity = 0;
+	 hie = 0;
+	 wid = 0;
+	 len = 0;
 }
 
 AmunDepot::AmunDepot(int _cargo_capacity, int _hie, int _wid, int _len)
@@ -57,7 +57,15 @@ void AmunDepot::set_len(int _len)
 
 void AmunDepot:: show()
 {
-	cout << "lenght = " << len << "width = " << wid << "hieght = " << hie <<"cargo = "<< capacity;
+	cout << "lenght = " << len << " width = " << wid << " hieght = " << hie <<" cargo = "<< capacity;
+}
+
+void AmunDepot::fill()
+{
+	cout << "Amunition Depot capacity"; cin >> capacity;
+	cout << "Amunition hieght"; cin >> hie;
+	cout << "Amunition width"; cin >> wid;
+	cout << "Amunition lenght"; cin >> len;
 }
 
 

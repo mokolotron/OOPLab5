@@ -24,6 +24,7 @@ public:
 	void set_cargo_capacity(float _cargo_capacity);
 	
 	virtual void show();
+	void fill();
 	~Boat();
 };
 

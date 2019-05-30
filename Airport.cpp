@@ -37,7 +37,13 @@ void Airport::set_width(int _width)
 }
 void Airport::show()
 {
-	cout << status<<' ' << wid << ' ' << len;
+	cout <<" status  = "<< status<<"airport_width = " << wid << "airport_lenght = " << len;
+}
+void Airport::fill()
+{
+	cout<<"Airport lenght : "; cin >> len;
+	cout<<"Airport width  : "; cin >> wid;
+	cout<<"Airport status : "; cin >> status;
 }
 ;
 
