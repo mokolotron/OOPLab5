@@ -25,6 +25,7 @@ public:
 	virtual void show();
 	void fill();
 
+	virtual void reload() = 0; //clear virtual
 	~AmunDepot();
 };
 

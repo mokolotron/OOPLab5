@@ -20,11 +20,12 @@ public:
 		int capacity, int _hie, int _wid, int _len,				//AmunDepot
 		int _air_len, int _air_wid, string _status				//Airport
 		);
+	Carrier(const Carrier &obj);
 
 	virtual void show();
 	void fill();
 
-
+	virtual void reload();
 	~Carrier();
 };
 
