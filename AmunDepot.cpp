@@ -62,14 +62,11 @@ void AmunDepot:: show()
 
 void AmunDepot::fill()
 {
-	cout << "Amunition Depot capacity"; cin >> capacity;
-	cout << "Amunition hieght"; cin >> hie;
-	cout << "Amunition width"; cin >> wid;
-	cout << "Amunition lenght"; cin >> len;
+	cout << "Depot capacity : "; cin >> capacity;
+	cout << "Depot hieght : "; cin >> hie;
+	cout << "Depot width : "; cin >> wid;
+	cout << "Depot lenght : "; cin >> len;
 }
-
-
-
 
 AmunDepot::~AmunDepot()
 {

@@ -10,6 +10,7 @@ class Carrier :
 	public AmunDepot,
 	private Airport
 {
+protected:
 	string crew_name;
 	string escadra;
 	
@@ -22,7 +23,7 @@ public:
 		);
 	Carrier(const Carrier &obj);
 
-	virtual void show();
+	virtual void show() ;
 	void fill();
 
 	virtual void reload();

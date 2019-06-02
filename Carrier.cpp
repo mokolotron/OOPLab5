@@ -25,7 +25,7 @@ Carrier::Carrier(const Carrier& obj):Boat(obj),AmunDepot(obj),Airport(obj)
 }
 
 
-void Carrier::show()
+ void Carrier:: show()
 {
 	cout << "crew_name = " << crew_name << " escadra = " << escadra;
 	cout<<endl << "Boat propereties:";
