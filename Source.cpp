@@ -18,11 +18,12 @@ int main() {
 	cout << "Helicopter Carrier" << endl;
 	Heli_carrier t_heli_carrier;
 	t_heli_carrier.fill();
-	Carrier heli_carrier(t_heli_carrier);
+	Heli_carrier heli_carrier(t_heli_carrier);
 	cout << endl;
 
 	carrier.reload();
 	heli_carrier.reload();
+	cout << endl;
 	system("pause");
 
 	system("cls");

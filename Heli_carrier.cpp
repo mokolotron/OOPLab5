@@ -13,7 +13,7 @@ Heli_carrier::Heli_carrier(int _area_lenght, int _area_with, bool _busy,
 	string _escadra, string _crew_name,
 	float _speed, float _weight, int _capacity, int _cargo_capacity,
 	int capacity, int _hie, int _wid, int _len) :
-	Carrier(_escadra, _crew_name, _speed, _weight, _capacity, _cargo_capacity, capacity, _hie, _wid, _len, 0, 0, string("close"))
+	Carrier(_escadra, _crew_name, _speed, _weight, _capacity, _cargo_capacity, capacity, _hie, _wid, _len)
 {
 	area_lenght = _area_lenght;
 	area_width = _area_with;
@@ -56,7 +56,7 @@ void Heli_carrier::fill()
 
 void Heli_carrier::reload()
 {
-	cout << "helicopter was reloaded" << endl;
+	cout<<endl << "helicopter was reloaded" << endl;
 }
 
 

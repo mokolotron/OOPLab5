@@ -50,7 +50,7 @@ void Carrier::fill()
 
 void Carrier::reload()
 {
-	cout << "airpalnes weapeson are reloaded";
+	cout << endl << "airpalnes weapeson are reloaded";
 }
 
 Carrier::~Carrier()

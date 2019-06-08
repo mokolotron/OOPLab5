@@ -16,7 +16,7 @@ public:
 	Heli_carrier(const Heli_carrier& obj);
 
 	void show() override;
-	void fill();
+	void fill() override;
 
 	void reload() override;
 
